@@ -9,11 +9,11 @@ export default function Post() {
     <div className="post">
       <div className="user-info">
         <img id="profile-img" src={userImage} alt="Profile Image" />
-        <p>Hipthehippocorn</p>
-        {<FollowButton />}
+        <p>SeaBassy4</p>
+        <FollowButton />
       </div>
       <img id="post-img" src={postImage} alt="Post Image" />
-      {<LikeButton />}
+      <LikeButton />
     </div>
   );
 }
